@@ -1,1 +1,62 @@
 // write your code here
+
+//Block
+.main-header {
+    background-color: black;
+    padding: 15px;
+}
+
+body {
+    background-color: white;
+}
+
+.article {
+    line-height: 1.5em;
+    text-align: justify;
+    
+    &__title {
+      font-size: 30px;
+      text-align: center;
+    }
+    
+    &__featured-image {
+        width: 100%;
+    }
+    
+    &__paragraph {
+    // ...
+
+    &--first {
+      font-weight: bold;
+    }
+  }
+  
+  &__author-info {
+    padding: 10px;
+    display: block-inline;
+}
+
+}
+//Element
+
+.main-header__title {
+    font-family: "Arial", 'sans-serif';
+    font-weight: bold;
+    color: white;
+    font-size: 3em;
+}
+
+.main-header__tagline {
+    font-family: "Arial", 'sans-serif';
+    font-weight: lighter;
+    color: white;
+    
+}
+
+.author-info__image {
+    border-radius: 100%;
+    float: left;
+    padding: 15px;
+}
+
+//Modifiers
