@@ -1,0 +1,18 @@
+@import "lib";
+
+.kitty-pic {
+    @include round (100%, blue, #ff69b4 )
+}
+
+.author-image {
+    @include rounded-corner-box (10px, green, none, hsla(170, 50%, 45%, 1))
+}
+
+.main-title {
+    @include round (2px, blue, red)
+}
+
+.featured {
+    @include rounded-corner-box (50%, black, 4px, gray);
+    margin: 2px;
+}
